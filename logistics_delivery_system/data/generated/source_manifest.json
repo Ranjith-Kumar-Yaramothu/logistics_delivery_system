@@ -1,0 +1,22 @@
+{
+  "seed": 20261022,
+  "mode": "starter",
+  "counts": {
+    "customer_sites": 30,
+    "orders": 100,
+    "deliveries": 100,
+    "vehicles": 10,
+    "vehicle_capacities": 10,
+    "drivers": 10,
+    "shifts": 300,
+    "time_windows": 100,
+    "travel_time_matrix": 52200
+  },
+  "generator_version": "2.0",
+  "base_date": "2026-11-01",
+  "days": 30,
+  "travel_scenarios": [
+    "NORMAL",
+    "TRAFFIC"
+  ]
+}

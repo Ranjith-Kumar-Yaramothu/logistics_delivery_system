@@ -1,0 +1,11 @@
+
+anomaly_id,issue_type,description,expected_severity,source
+ANOM-001,UNEXPECTED_DELIVERY_DELAY,Actual arrival exceeds planned arrival by more than 30 minutes,HIGH,SYNTHETIC_TEST
+ANOM-002,WEIGHT_CAPACITY_EXCEEDED,Total delivery weight exceeds vehicle weight capacity,HIGH,SYNTHETIC_TEST
+ANOM-003,VOLUME_CAPACITY_EXCEEDED,Total delivery volume exceeds vehicle volume capacity,HIGH,SYNTHETIC_TEST
+ANOM-004,DUPLICATE_DELIVERY,Same delivery appears more than once in a route,HIGH,SYNTHETIC_TEST
+ANOM-005,ARRIVAL_BEFORE_PREVIOUS_DEPARTURE,Next stop arrives before previous stop departure,HIGH,SYNTHETIC_TEST
+ANOM-006,DRIVER_SHIFT_EXCEEDED,Route finishes after driver shift end,HIGH,SYNTHETIC_TEST
+ANOM-007,COORDINATE_OUTSIDE_REGION,Customer coordinates fall outside configured geographical boundaries,MEDIUM,SYNTHETIC_TEST
+ANOM-008,PLANNED_LATE_ARRIVAL,Planned arrival exceeds customer time window,HIGH,SYNTHETIC_TEST
+ANOM-009,ACTUAL_LATE_ARRIVAL,Actual arrival exceeds customer time window,HIGH,SYNTHETIC_TEST

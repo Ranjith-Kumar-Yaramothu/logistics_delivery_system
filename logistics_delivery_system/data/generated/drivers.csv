@@ -1,0 +1,11 @@
+driver_id,driver_name,license_type,is_active
+DRV-000001,Driver 001,LMV,True
+DRV-000002,Driver 002,LMV,True
+DRV-000003,Driver 003,HMV,True
+DRV-000004,Driver 004,LMV,True
+DRV-000005,Driver 005,LMV,True
+DRV-000006,Driver 006,HMV,True
+DRV-000007,Driver 007,LMV,True
+DRV-000008,Driver 008,LMV,True
+DRV-000009,Driver 009,HMV,True
+DRV-000010,Driver 010,LMV,True
